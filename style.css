@@ -1,0 +1,53 @@
+ :root {
+     --coral-red: #FF6B6B;
+     --ocean-blue: #4ECDC4;
+     --golden-yellow: #FFD93D;
+     --sea-green: #20B2AA;
+     --cream-white: #FFF8E7;
+     --wood-brown: #8B4513;
+     --bright-orange: #FF8C42;
+     --dark-blue: #2C5F5D;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'poppins', sans-serif;
+     background: linear-gradient(100deg, #4ECDC4 50%, #20B2AA 100%);
+     color: var(--cream-white);
+     font-size: 18px;
+ }
+
+ header {
+     background-color: #ff8989;
+     backdrop-filter: blur(10rem);
+     padding: 1rem 0;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     z-index: 1000;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+ }
+
+ nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+ }
+
+ .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(100deg, #ff2922 50%, #FF8C42 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 30px #fffb0080;
+ }
